@@ -16,6 +16,17 @@ tasks.processResources {
     }
 }
 
+loom {
+    splitEnvironmentSourceSets()
+
+    mods {
+        create(project.name) {
+            sourceSet(sourceSets["main"])
+            sourceSet(sourceSets["client"])
+        }
+    }
+}
+
 tasks.withType<JavaCompile>().configureEach {
     options.release = 25
 }
