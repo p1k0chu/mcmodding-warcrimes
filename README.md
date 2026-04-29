@@ -1,4 +1,4 @@
-# mixin-disabler-proof-of-concept
+# mcmodding-warcrimes
 
 ## Setup
 
@@ -6,6 +6,6 @@ For setup instructions, please see the [Fabric Documentation page](https://docs.
 
 ## License
 
-This mod is available under the MIT No Attribution License (MIT-0).
+This software is available under the MIT No Attribution License (MIT-0).
 
 Feel free to do whatever you want with this ~~piece of art~~ thing.

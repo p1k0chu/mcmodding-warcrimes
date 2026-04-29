@@ -21,9 +21,6 @@ tasks.withType<JavaCompile>().configureEach {
 }
 
 java {
-    // Loom will automatically attach sourcesJar to a RemapSourcesJar task and to the "build" task
-    // if it is present.
-    // If you remove this line, sources will not be generated.
     withSourcesJar()
 
     sourceCompatibility = JavaVersion.VERSION_25
@@ -34,7 +31,7 @@ tasks.jar {
     val projectName = project.name
     inputs.property("projectName", projectName)
 
-    from("LICENSE") {
+    from(rootProject.file("LICENSE")) {
         rename { "${it}_$projectName" }
     }
 }

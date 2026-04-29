@@ -1,6 +1,6 @@
-package io.github.p1k0chu.idkbroimtiredandidontwanttocomeupwithpackagesrightnow;
+package io.github.p1k0chu.mcmodcrimes.mixindisabler;
 
-import io.github.p1k0chu.idkbroimtiredandidontwanttocomeupwithpackagesrightnow.mixin.ExampleMixin;
+import io.github.p1k0chu.mcmodcrimes.mixindisabler.mixin.ExampleMixin;
 import java.lang.reflect.Field;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.loader.impl.launch.FabricLauncherBase;

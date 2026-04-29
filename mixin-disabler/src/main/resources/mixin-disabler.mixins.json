@@ -1,6 +1,6 @@
 {
     "required": true,
-    "package": "io.github.p1k0chu.idkbroimtiredandidontwanttocomeupwithpackagesrightnow.mixin",
+    "package": "io.github.p1k0chu.mcmodcrimes.mixindisabler.mixin",
     "compatibilityLevel": "JAVA_25",
     "mixins": [
         "AbstractExampleMixin",

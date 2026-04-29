@@ -1,6 +1,6 @@
 {
     "schemaVersion": 1,
-    "id": "mixin-disabler-proof-of-concept",
+    "id": "mixin-disabler",
     "version": "${version}",
     "name": "Mixin Disabler",
     "description": "This is a description!",
@@ -8,18 +8,18 @@
         "p1k0chu"
     ],
     "contact": {
-        "sources": "https://github.com/p1k0chu/mcmodcursed-mixin-disabler"
+        "sources": "https://github.com/p1k0chu/mcmodding-warcrimes"
     },
     "license": "MIT-0",
-    "icon": "assets/mixin-disabler-proof-of-concept/icon.png",
+    "icon": "assets/mixin-disabler/icon.png",
     "environment": "*",
     "entrypoints": {
         "main": [
-            "io.github.p1k0chu.idkbroimtiredandidontwanttocomeupwithpackagesrightnow.Main"
+            "io.github.p1k0chu.mcmodcrimes.mixindisabler.Main"
         ]
     },
     "mixins": [
-        "mixin-disabler-proof-of-concept.mixins.json"
+        "mixin-disabler.mixins.json"
     ],
     "depends": {
         "fabricloader": "=0.19.2",
