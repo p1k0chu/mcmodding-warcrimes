@@ -1,0 +1,29 @@
+{
+    "schemaVersion": 1,
+    "id": "mixin-disabler-proof-of-concept",
+    "version": "${version}",
+    "name": "Mixin Disabler",
+    "description": "This is a description!",
+    "authors": [
+        "p1k0chu"
+    ],
+    "contact": {
+        "sources": "https://github.com/p1k0chu/mcmodcursed-mixin-disabler"
+    },
+    "license": "MIT-0",
+    "icon": "assets/mixin-disabler-proof-of-concept/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "io.github.p1k0chu.idkbroimtiredandidontwanttocomeupwithpackagesrightnow.Main"
+        ]
+    },
+    "mixins": [
+        "mixin-disabler-proof-of-concept.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": "=0.19.2",
+        "minecraft": "~26.1.2",
+        "java": ">=25"
+    }
+}
