@@ -5,4 +5,5 @@ pluginManagement {
 }
 
 include("mixin-disabler")
+include("asm-mixin")
 include("common")
