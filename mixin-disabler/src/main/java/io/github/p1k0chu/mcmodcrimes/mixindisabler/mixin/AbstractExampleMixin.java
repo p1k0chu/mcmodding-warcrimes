@@ -1,11 +1,11 @@
 package io.github.p1k0chu.mcmodcrimes.mixindisabler.mixin;
 
+import io.github.p1k0chu.mcmodcrimes.mixindisabler.Main;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-import io.github.p1k0chu.mcmodcrimes.mixindisabler.Main;
 import net.minecraft.server.MinecraftServer;
 
 @Mixin(MinecraftServer.class)
