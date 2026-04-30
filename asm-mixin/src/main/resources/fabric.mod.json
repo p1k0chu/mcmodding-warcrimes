@@ -1,29 +1,29 @@
 {
-	"schemaVersion": 1,
-	"id": "asm-mixin",
-	"version": "${version}",
-	"name": "asm-mixin",
-	"description": "This is an example description! Tell everyone what your mod is about!",
-	"authors": [
-		"p1k0chu"
-	],
-	"contact": {
-		"sources": "https://github.com/p1k0chu/mcmodding-warcrimes"
-	},
-	"license": "MIT-0",
-	"icon": "assets/asm-mixin/icon.png",
-	"environment": "*",
-	"entrypoints": {
-		"main": [
-			"io.github.p1k0chu.mcmodcrimes.asmmixin.Main"
-		]
-	},
-	"mixins": [
-		"asm-mixin.mixins.json"
-	],
-	"depends": {
-		"fabricloader": ">=0.19.2",
-		"minecraft": "~26.1",
-		"java": ">=25"
-	}
+    "schemaVersion": 1,
+    "id": "asm-mixin",
+    "version": "${version}",
+    "name": "asm-mixin",
+    "description": "This is an example description! Tell everyone what your mod is about!",
+    "authors": [
+        "p1k0chu"
+    ],
+    "contact": {
+        "sources": "https://github.com/p1k0chu/mcmodding-warcrimes"
+    },
+    "license": "MIT-0",
+    "icon": "assets/asm-mixin/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "io.github.p1k0chu.mcmodcrimes.asmmixin.Main"
+        ]
+    },
+    "mixins": [
+        "asm-mixin.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.19.2",
+        "minecraft": "~26.1",
+        "java": ">=25"
+    }
 }
